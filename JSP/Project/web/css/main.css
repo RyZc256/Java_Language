@@ -1,0 +1,143 @@
+body{
+    background-color: #F7F7F7;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    font-size: 13px;
+}
+.login{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+.register{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.login-img{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.right{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+.link{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+a:hover{
+    color: #2D93CA;
+}
+.fpwd-body{
+    background: url(../img/background_fpwd.jpg);
+}
+.fpwd-panel{
+    width: 932px;
+    margin: 120px auto 0;
+    padding: 20px 30px 40px;
+    background-color: #fff;
+}
+.fpwd-item{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+}
+.but{
+    width: 45%;
+}
+
+.inline{
+    *display:inline;
+}
+.input-inline{
+    display:inline-block;
+}
+.card{
+    height: 286px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-item{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate3D(-51%, -39%, 0);
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+}
+.product-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #252B3A;
+}
+.product-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252B3A;
+}
+.list-img{
+    width: 370px;
+    height: 260px;
+}
+.list-title-bg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.list-title{
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1.29px;
+}
+.carousel-img{
+    width: 100%;
+    height: 382px;
+}
+.carousel-item{
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 76px;
+}
+.carousel-title{
+    width: 540px;
+    font-size: 36px;
+    line-height: 50px;
+}
+.carousel-subtitle{
+    width: 540px;
+    margin-top: 6px;
+    opacity: .78;
+    font-size: 16px;
+    letter-spacing: .23px;
+    line-height: 24px;
+}
+.footer{
+    text-align: center;
+    background-color: #101820;
+}
+.footer-text{
+    line-height: 20px;
+    font-size: 14px;
+    color: #53595e;
+}
+.profile-photo{
+    width: 68px;
+    height: 68px;
+    border:1px solid #53595e
+}

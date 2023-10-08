@@ -1,0 +1,75 @@
+body,td,th {
+	font-family:  ËÎÌå;
+	font-size: 12px;
+	color: #666666;
+}
+body {
+    background-color:#C3C3C3;
+	background-image: url(../images/img01.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+
+#header {
+	height: 110px;
+	margin:0 auto;
+	background-image: url(../images/bg0.gif);
+	background-repeat: repeat-x;
+}
+#header #logo {
+	float: left;
+	padding-top: 16px;
+	padding-left: 24px;
+}
+#header #logo span {
+	color: #0C6785;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 1px;
+	font-family:  Arial;
+}
+#header #banner {
+	font-family: "ºÚÌå";
+	font-size: 46px;
+	color: #FF0000;
+	float: left;
+	margin-left: 80px;
+	padding-top: 23px;
+}
+#header #computer {
+    margin:5px 5px 0 0;
+	float: right;
+}
+#footer {
+	background-image: url(../images/img02.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	background-color: #E0ECFF;
+	clear:both;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+
+#main {
+	width: 98%;
+	margin: 0 auto;
+}
+#main #left {
+	background-color: #E0ECFF;
+	float: left;
+	height: 500px;
+	width: 29%;
+}
+#main #right {
+	background-color: #FFFFFF;
+	float: right;
+	height: 500px;
+	width: 70%;
+}
+#main #right p {
+	text-align: center;
+	padding-top: 20px;
+}

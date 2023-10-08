@@ -1,0 +1,68 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :::p, comp label1:::p::p}, seq l {space :p:26:p, par t {comp label4:::p::p, par l {comp label2:::p::p, seq l {space :p:18:p, comp label3:::p::p}}, comp label5::t:p::p}, space s:::p, par l:::p {comp sfz_textField::::222:x, comp id_textField::::222:x, comp type_label::l::222:x, comp status_label::l::222:x}}}, space ::39:x}, seq l {space :p:65:p, comp button1:::p::p, space ::81:x, comp button2:::p::p, space :p:81:p}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space :p:26:p, par b {comp label2::b:p::p, comp id_textField::b:p::p}, space u:::p, par b {comp label3::b:p::p, comp sfz_textField::b:p::p}, space u:::p, par b {comp label4::b:p::p, comp type_label::b:p::p}, space s:::p, par b {comp label5::b:p::p, comp status_label::b:p::p}, space s:::p, par b {comp button1::b:p::p, comp button2::b:p::p}, space ::11:x}}"
+		} ) {
+			name: "this"
+			"title": "展览馆购票系统——检票端"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "购票系统检票端"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "订单编号："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "身份证："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "id_textField"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "sfz_textField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "检票"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "入场"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "门票类型："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "门票状态："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "type_label"
+				"text": "未查询"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "status_label"
+				"text": "未查询"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 385, 275 )
+		} )
+	}
+}

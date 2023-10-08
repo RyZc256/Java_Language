@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ProductMapper">
+    <select id="findType" parameterType="Integer" resultMap="ProductWhiteResult">
+        select c.typename, p.id, p.goodsname, p.price, p.typeid  FROM category as c join product as p on p.typeid=c.id WHERE c.id = #{id}
+    </select>
+    <resultMap id="ProductWhiteResult" type="com.poji.Category">
+        <id property="id" column="typeid"/>
+        <result property="typename" column="typename"/>
+        <collection property="products" ofType="com.poji.Product">
+            <id property="id" column="id"/>
+            <result property="goodsName" column="goodsname"/>
+            <result property="price" column="price"/>
+            <result property="typeId" column="typeid"/>
+        </collection>
+    </resultMap>
+
+
+
+</mapper>

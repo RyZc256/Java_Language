@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>html5新表单设计</title>
+	</head>
+	<body>
+		<form name="data" method="post">
+			<table border="0">
+				<tr>
+					<td>
+						名字：
+						<input type="text" name="FirstName" novalidate=true />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						姓氏：
+						<input type="text" name="LastName" novalidate=true />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						登录名：
+						<input type="text" name="LoginName" pattern="[A-z]{3}[0-9]{3}" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						密码：
+						<input type="password" name="Password" novalidate=true />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						性别：
+						<input type="radio" name="Sex" value="male" checked="checked" />男
+						<input type="radio" name="Sex" value="female" />女
+					</td>
+				</tr>
+				<tr>
+					<td>
+						email：
+						<input type="email" name="Email" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						年龄：
+						<input type="text" name="Age" min="10" max="50"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						你喜爱的颜色：
+						<input type="color" name="Color" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						你的个人主页：
+						<input type="url" name="HomePage" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						友情链接：
+						<input id="Link" list="Linklist" />
+						<datalist id="Linklist">
+						  <option value="http://www.baidu.com">百度
+						  <option value="http://www.google.com">Google
+						  <option value="http://www.sina.com.cn">新浪
+						</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						出生年月日：
+						<input type="date" name="Date" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						专业：
+						<input type="text" name="Major" value="请输入您的专业方向" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="reset" name="Reset" value="重填" />
+						<input type="submit" name="A" value="提交到A.html" onclick="javascript:this.form.action='A.html';" />
+						<input type="submit" name="B" value="提交到B.html" onclick="javascript:this.form.action='B.html';"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

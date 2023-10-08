@@ -1,0 +1,82 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :0:41:x, comp check:::p::p, space s:::p, comp pay_button:::p::p, space s:::p, comp button2:::p::p, space s:::p, comp his_button:::p::p, space :p:36:p}, seq {par l {seq {space :::p, comp label1:::p::p}, seq {space :p:23:p, par l {seq {par l {comp label3::l:p::p, comp label4::l:p::p, comp label5::l:p::p}, space :::p, par l {comp date_comboBox:::p::p, comp id_textField:::p:222:p, comp number_label:::p::p}}, seq l {comp label2:::p::p, space :::p, comp type_comboBox:::p::p, space ::130:x, comp price_label:::p:118:p}}}}, space :::p}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space s:::p, par b {comp label2::b:p::p, comp type_comboBox::b:p::p, comp price_label::b:p::p}, space s:::p, par b {comp label3::b:p::p, comp date_comboBox::b:p::p}, space s:::p, par b {comp label4::b:p::p, comp id_textField::b:p::p}, space s:::p, par b {comp label5::b:p::p, comp number_label::b:p::p}, space ::38:x, par b {comp check::b:p::p, comp pay_button::b:p::p, comp button2::b:p::p, comp his_button::b:p::p}, space :p:26:p}}"
+		} ) {
+			name: "this"
+			"title": "展览馆购票系统——访客端"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "展览馆购票系统"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "门票类型："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "门票日期："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "type_comboBox"
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "type_comboBoxItemStateChanged", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "date_comboBox"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "身份证："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "id_textField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "check"
+				"text": "下单"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "checkMouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "pay_button"
+				"text": "付款"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "pay_buttonMouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "删除"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "his_button"
+				"text": "历史"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "his_buttonMouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "订单编号："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "price_label"
+				"text": "售价：0.00"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "number_label"
+				"text": "未生成"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 445, 325 )
+		} )
+	}
+}

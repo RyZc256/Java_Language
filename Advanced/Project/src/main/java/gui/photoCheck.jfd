@@ -1,0 +1,134 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.14.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "学生实习管理系统"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo1"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo1MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 10
+				"width": 80
+				"height": 80
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo2"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo2MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 90
+				"y": 10
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo3"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo3MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 170
+				"y": 10
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo4"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo4MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 250
+				"y": 10
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo5"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 330
+				"y": 10
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo6"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo6MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 410
+				"y": 10
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo7"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo7MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 10
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo8"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo8MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 90
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo9"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo9MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 170
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo10"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo10MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 250
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo11"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo11MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 330
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "photo12"
+				"text": "text"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "photo12MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 80
+				"x": 410
+				"y": 95
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 500, 245 )
+		} )
+	}
+}

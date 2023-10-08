@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.StudentMapper">
+    <select id="findStudent" parameterType="com.info.ent.Student" resultType="com.info.ent.Student">
+        select * from n_student where 1=1
+        <choose>
+            <when test="sid != null and sid != ''">
+                and sid = #{sid}
+            </when>
+            <when test="s_name != null and s_name != ''">
+                and s_name = #{s_name}
+            </when>
+            <when test="s_profession != null and s_profession != ''">
+                and s_profession = #{s_profession}
+            </when>
+            <otherwise>
+                and sid != null
+            </otherwise>
+        </choose>
+    </select>
+    <select id="find5" parameterType="com.info.ent.Student" resultType="com.info.ent.Student">
+        select * from n_student where sid &lt;5;
+    </select>
+</mapper>
